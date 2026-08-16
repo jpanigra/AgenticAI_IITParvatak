@@ -1,0 +1,20 @@
+{
+  "installMethod": "unknown",
+  "autoUpdates": true,
+  "firstStartTime": "2026-08-09T14:51:36.035Z",
+  "userID": "528b3a2aa4953d9eb37bfccf1a4f88085d6edeea326588401c129e7b1a5f97cc",
+  "projects": {
+    "/voc/work": {
+      "allowedTools": [],
+      "history": [],
+      "mcpContextUris": [],
+      "mcpServers": {},
+      "enabledMcpjsonServers": [],
+      "disabledMcpjsonServers": [],
+      "hasTrustDialogAccepted": false,
+      "projectOnboardingSeenCount": 0,
+      "hasClaudeMdExternalIncludesApproved": false,
+      "hasClaudeMdExternalIncludesWarningShown": false
+    }
+  }
+}

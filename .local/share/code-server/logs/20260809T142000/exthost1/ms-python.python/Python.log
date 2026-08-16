@@ -1,0 +1,68 @@
+2026-08-09 14:20:41.407 [info] Telemetry level is off
+2026-08-09 14:20:41.407 [info] Experiments are disabled, only manually opted experiments are active.
+2026-08-09 14:20:41.407 [warning] Dir "/voc/work/.pixi/envs" is not watchable (directory does not exist)
+2026-08-09 14:20:41.407 [info] Starting Environment refresh
+2026-08-09 14:20:41.407 [info] Searching for interpreters in posix paths locator
+2026-08-09 14:20:41.407 [info] Searching for pyenv environments
+2026-08-09 14:20:41.407 [info] Searching for conda environments
+2026-08-09 14:20:41.407 [info] Searching for global virtual environments
+2026-08-09 14:20:41.407 [info] Searching for custom virtual environments
+2026-08-09 14:20:41.407 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-08-09 14:20:41.407 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-08-09 14:20:41.407 [info] pyenv is not installed
+2026-08-09 14:20:41.407 [info] Finished searching for pyenv environments: 37 milliseconds
+2026-08-09 14:20:41.407 [info] Finished searching for custom virtual envs: 37 milliseconds
+2026-08-09 14:20:41.407 [info] > conda info --json
+2026-08-09 14:20:41.407 [info] > hatch env show --json
+2026-08-09 14:20:41.407 [info] cwd: .
+2026-08-09 14:20:41.407 [info] > pyenv which python
+2026-08-09 14:20:41.407 [info] cwd: .
+2026-08-09 14:20:41.407 [info] Finished searching for global virtual envs: 71 milliseconds
+2026-08-09 14:20:41.407 [info] Found: /bin/python --> /bin/python3.10
+2026-08-09 14:20:41.407 [info] Found: /bin/python3 --> /bin/python3.10
+2026-08-09 14:20:41.407 [info] Found: /bin/python3.10 --> /bin/python3.10
+2026-08-09 14:20:41.413 [info] Found: /bin/python3.8 --> /bin/python3.8
+2026-08-09 14:20:41.427 [info] Found: /usr/bin/python --> /usr/bin/python3.10
+2026-08-09 14:20:41.427 [info] Found: /usr/bin/python3 --> /usr/bin/python3.10
+2026-08-09 14:20:41.431 [info] Found: /usr/bin/python3.10 --> /usr/bin/python3.10
+2026-08-09 14:20:41.431 [info] Found: /usr/bin/python3.8 --> /usr/bin/python3.8
+2026-08-09 14:20:41.450 [info] > /bin/python -I /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/get_output_via_markers.py /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/interpreterInfo.py
+2026-08-09 14:20:41.457 [info] > /bin/python3.8 -I /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/get_output_via_markers.py /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/interpreterInfo.py
+2026-08-09 14:20:41.462 [info] Finished searching for interpreters in posix paths locator: 144 milliseconds
+2026-08-09 14:20:41.470 [info] Environments refresh paths discovered (event): 151 milliseconds
+2026-08-09 14:20:41.470 [info] Environments refresh paths discovered: 152 milliseconds
+2026-08-09 14:20:41.478 [info] > /usr/bin/python -I /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/get_output_via_markers.py /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/interpreterInfo.py
+2026-08-09 14:20:41.483 [info] > /usr/bin/python3.8 -I /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/get_output_via_markers.py /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/interpreterInfo.py
+2026-08-09 14:20:41.505 [info] Environments refresh finished (event): 187 milliseconds
+2026-08-09 14:20:41.510 [info] Environment refresh took 193 milliseconds
+2026-08-09 14:20:41.513 [info] Python interpreter path: /bin/python
+2026-08-09 14:20:42.635 [info] Discover tests for workspace name: work - uri: /voc/work/.local/share/code-server/User/settings.json
+2026-08-09 14:20:42.933 [info] Starting Jedi language server for work.
+2026-08-09 14:20:56.600 [info] Send text to terminal: /bin/python /voc/work/hello_llm.py
+2026-08-09 14:21:00.904 [info] Discover tests for workspace name: work - uri: /voc/work/.local/share/code-server/Machine/settings.json
+2026-08-09 14:21:04.085 [info] Discover tests for workspace name: work - uri: /voc/work/.local/share/code-server/Machine/settings.json
+2026-08-09 14:24:26.950 [info] Running installed packages checker:  {
+  id: '/bin/python',
+  sysPrefix: '/usr',
+  envType: 'Global',
+  envName: '',
+  envPath: '',
+  path: '/bin/python',
+  architecture: 3,
+  sysVersion: '3.10.14 (main, Apr  6 2024, 18:45:05) [GCC 9.4.0]',
+  version: {
+    raw: '3.10.14',
+    major: 3,
+    minor: 10,
+    patch: 14,
+    build: [],
+    prerelease: [ 'final', '0' ]
+  },
+  displayName: 'Python 3.10.14 64-bit',
+  detailedDisplayName: 'Python 3.10.14 64-bit',
+  type: undefined
+} /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/installed_check.py /voc/work/W1_package/requirements.txt
+2026-08-09 14:24:26.951 [info] > /bin/python /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/installed_check.py ./W1_package/requirements.txt
+2026-08-09 14:28:06.823 [info] Discover tests for workspace name: work - uri: /voc/work
+2026-08-09 14:29:10.427 [error] Could not find debugpy path.
+2026-08-09 14:51:35.005 [info] Send text to terminal: claude

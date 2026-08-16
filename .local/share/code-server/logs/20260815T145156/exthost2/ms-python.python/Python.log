@@ -1,0 +1,28 @@
+2026-08-15 16:18:21.407 [info] Telemetry level is off
+2026-08-15 16:18:21.407 [info] Experiments are disabled, only manually opted experiments are active.
+2026-08-15 16:18:21.408 [warning] Dir "/voc/work/.pixi/envs" is not watchable (directory does not exist)
+2026-08-15 16:18:21.459 [info] Starting Environment refresh
+2026-08-15 16:18:21.495 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-08-15 16:18:21.499 [info] > hatch env show --json
+2026-08-15 16:18:21.499 [info] cwd: .
+2026-08-15 16:18:21.505 [info] > conda info --json
+2026-08-15 16:18:21.507 [info] Python interpreter path: /bin/python
+2026-08-15 16:18:21.527 [info] > /bin/python -I /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/get_output_via_markers.py /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/interpreterInfo.py
+2026-08-15 16:18:21.531 [info] Environments refresh paths discovered: 73 milliseconds
+2026-08-15 16:18:21.552 [info] Environments refresh finished (event): 94 milliseconds
+2026-08-15 16:18:21.555 [info] Environment refresh took 98 milliseconds
+2026-08-15 16:18:22.096 [info] > pyenv which python
+2026-08-15 16:18:22.096 [info] cwd: .
+2026-08-15 16:18:23.255 [info] Starting Jedi language server for work.
+2026-08-15 16:23:47.772 [info] Send text to terminal: /bin/python /voc/work/hello_llm.py
+2026-08-15 16:25:47.598 [info] Send text to terminal: /bin/python /voc/work/hello_llm.py
+2026-08-15 16:25:48.736 [info] Send text to terminal: /bin/python /voc/work/hello_llm.py
+2026-08-15 16:31:02.420 [info] Discover tests for workspace name: work - uri: /voc/work
+2026-08-15 16:31:16.723 [info] Discover tests for workspace name: work - uri: /voc/work/hello_llm.py
+2026-08-15 16:31:40.134 [info] Discover tests for workspace name: work - uri: /voc/work/hello_llm.py
+2026-08-15 16:31:42.182 [info] Discover tests for workspace name: work - uri: /voc/work/hello_llm.py
+2026-08-15 16:31:53.409 [info] Discover tests for workspace name: work - uri: /voc/work/hello_llm.py
+2026-08-15 16:33:28.088 [info] Discover tests for workspace name: work - uri: /voc/work/hello_llm.py
+2026-08-15 16:33:50.575 [info] Discover tests for workspace name: work - uri: /voc/work/hello_llm.py
+2026-08-15 16:34:17.392 [info] Discover tests for workspace name: work - uri: /voc/work/hello_llm.py
+2026-08-15 16:34:21.796 [info] Discover tests for workspace name: work - uri: /voc/work/hello_llm.py

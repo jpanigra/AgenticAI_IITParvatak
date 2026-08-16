@@ -1,0 +1,61 @@
+[2026-08-09T14:18:44.326Z] info  code-server 4.103.2 54b33a75e0b4593b77f9a217323c4b27a42f4073
+[2026-08-09T14:18:44.327Z] info  Using user-data-dir /voc/work/.local/share/code-server
+[2026-08-09T14:18:44.343Z] info  Using config file /voc/work/.config/code-server/config.yaml
+[2026-08-09T14:18:44.343Z] info  HTTP server listening on http://0.0.0.0:8081/
+[2026-08-09T14:18:44.343Z] info    - Authentication is disabled
+[2026-08-09T14:18:44.343Z] info    - Not serving HTTPS
+[2026-08-09T14:18:44.343Z] info  Session server listening on /voc/work/.local/share/code-server/code-server-ipc.sock
+[14:20:00] 
+
+
+
+
+[14:20:00] Extension host agent started.
+[14:20:00] Started initializing default profile extensions in extensions installation folder. file:///voc/work/.local/share/code-server/extensions
+[14:20:00] Completed initializing default profile extensions in extensions installation folder. file:///voc/work/.local/share/code-server/extensions
+[14:20:28] [172.16.12.1][0624ef96][ManagementConnection] New connection established.
+[14:20:32] [172.16.12.1][a54d8eb4][ExtensionHostConnection] New connection established.
+[14:20:32] [172.16.12.1][a54d8eb4][ExtensionHostConnection] <103> Launched Extension Host Process.
+[15:25:44] [172.16.12.1][a54d8eb4][ExtensionHostConnection] The client has reconnected.
+[15:25:45] [172.16.12.1][0624ef96][ManagementConnection] The client has reconnected.
+[16:25:06] [172.16.12.1][0624ef96][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[16:25:06] [172.16.12.1][a54d8eb4][ExtensionHostConnection] <103> Extension Host Process exited with code: 0, signal: null.
+[2026-08-15T14:51:54.507Z] info  code-server 4.103.2 54b33a75e0b4593b77f9a217323c4b27a42f4073
+[2026-08-15T14:51:54.508Z] info  Using user-data-dir /voc/work/.local/share/code-server
+[2026-08-15T14:51:54.527Z] info  Using config file /voc/work/.config/code-server/config.yaml
+[2026-08-15T14:51:54.527Z] info  HTTP server listening on http://0.0.0.0:8081/
+[2026-08-15T14:51:54.527Z] info    - Authentication is disabled
+[2026-08-15T14:51:54.527Z] info    - Not serving HTTPS
+[2026-08-15T14:51:54.527Z] info  Session server listening on /voc/work/.local/share/code-server/code-server-ipc.sock
+[14:51:56] 
+
+
+
+
+[14:51:56] Extension host agent started.
+[14:52:12] [172.16.5.129][3b8f63b2][ManagementConnection] New connection established.
+[14:52:16] [172.16.5.129][58ae39df][ExtensionHostConnection] New connection established.
+[14:52:16] [172.16.5.129][58ae39df][ExtensionHostConnection] <91> Launched Extension Host Process.
+[16:17:39] [172.16.5.129][3b8f63b2][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[16:17:40] [172.16.5.129][58ae39df][ExtensionHostConnection] <91> Extension Host Process exited with code: 0, signal: null.
+[16:18:13] [172.16.5.129][3ee02e70][ManagementConnection] New connection established.
+[16:18:16] [172.16.5.129][470549a5][ExtensionHostConnection] New connection established.
+[16:18:16] [172.16.5.129][470549a5][ExtensionHostConnection] <15618> Launched Extension Host Process.
+[17:17:00] [172.16.5.129][3ee02e70][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[17:17:01] [172.16.5.129][470549a5][ExtensionHostConnection] <15618> Extension Host Process exited with code: 0, signal: null.
+[2026-08-16T15:05:15.738Z] info  code-server 4.103.2 54b33a75e0b4593b77f9a217323c4b27a42f4073
+[2026-08-16T15:05:15.739Z] info  Using user-data-dir /voc/work/.local/share/code-server
+[2026-08-16T15:05:15.758Z] info  Using config file /voc/work/.config/code-server/config.yaml
+[2026-08-16T15:05:15.759Z] info  HTTP server listening on http://0.0.0.0:8081/
+[2026-08-16T15:05:15.759Z] info    - Authentication is disabled
+[2026-08-16T15:05:15.759Z] info    - Not serving HTTPS
+[2026-08-16T15:05:15.759Z] info  Session server listening on /voc/work/.local/share/code-server/code-server-ipc.sock
+[15:05:16] 
+
+
+
+
+[15:05:16] Extension host agent started.
+[15:05:23] [172.16.14.1][b2525a9f][ManagementConnection] New connection established.
+[15:05:27] [172.16.14.1][28cd7799][ExtensionHostConnection] New connection established.
+[15:05:27] [172.16.14.1][28cd7799][ExtensionHostConnection] <77> Launched Extension Host Process.

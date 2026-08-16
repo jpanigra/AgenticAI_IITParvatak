@@ -1,0 +1,533 @@
+2026-08-09 14:20:36.027 [info] Extension host with pid 103 started
+2026-08-09 14:20:36.034 [info] Lock '/voc/work/.local/share/code-server/User/workspaceStorage/bd6e400/vscode.lock': Lock acquired.
+2026-08-09 14:20:36.516 [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag, startup: true, activationEvent: '*'
+2026-08-09 14:20:36.517 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-08-09 14:20:36.520 [info] ExtensionService#_doActivateExtension synedra.auto-run-command, startup: true, activationEvent: '*'
+2026-08-09 14:20:36.849 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-08-09 14:20:36.849 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-08-09 14:20:37.487 [info] Eager extensions activated
+2026-08-09 14:20:37.487 [info] ExtensionService#_doActivateExtension Anthropic.claude-code, startup: false, activationEvent: 'onStartupFinished'
+2026-08-09 14:20:37.491 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2026-08-09 14:20:37.491 [info] ExtensionService#_doActivateExtension cweijan.vscode-database-client2, startup: false, activationEvent: 'onStartupFinished'
+2026-08-09 14:20:37.494 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2026-08-09 14:20:37.494 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-08-09 14:20:37.494 [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: false, activationEvent: 'onStartupFinished'
+2026-08-09 14:20:37.497 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-08-09 14:20:37.497 [info] ExtensionService#_doActivateExtension ms-dotnettools.vscode-dotnet-runtime, startup: false, activationEvent: 'onStartupFinished'
+2026-08-09 14:20:39.568 [error] Error: Extension dbclient-jdbc not found!
+	at r.upgradeJDBC (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/cweijan.vscode-database-client2-8.4.0/out/extension.js:177276:13)
+	at r.initTreeView (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/cweijan.vscode-database-client2-8.4.0/out/extension.js:187998:8)
+	at r.init (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/cweijan.vscode-database-client2-8.4.0/out/extension.js:187995:52)
+	at _Lr (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/cweijan.vscode-database-client2-8.4.0/out/extension.js:188948:10)
+	at vy.kb (file:///usr/local/lib/code-server-4.103.2/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:116:15342)
+	at vy.jb (file:///usr/local/lib/code-server-4.103.2/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:116:15087)
+	at file:///usr/local/lib/code-server-4.103.2/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:116:13245
+	at async Lb.n (file:///usr/local/lib/code-server-4.103.2/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:112:13382)
+	at async Lb.m (file:///usr/local/lib/code-server-4.103.2/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:112:13345)
+	at async Lb.l (file:///usr/local/lib/code-server-4.103.2/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:112:12801)
+2026-08-09 14:20:40.104 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2026-08-09 14:20:40.104 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2026-08-09 14:20:40.107 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-08-09 14:20:40.487 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-08-09 14:20:40.487 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-08-09 14:20:40.491 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-08-09 14:20:40.776 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2026-08-09 14:20:40.794 [warning] DiagnosticCollection with name 'eslint' does already exist.
+2026-08-09 14:20:41.326 [info] ExtensionService#_doActivateExtension ms-toolsai.tensorboard, startup: false, activationEvent: 'onLanguage:python'
+2026-08-09 14:20:47.176 [error] [ms-python.python] provider FAILED
+2026-08-09 14:20:47.176 [error] Error: _pickle.UnpicklingError: could not find MARK
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:20:56.740 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-08-09 14:20:56.908 [error] [ms-python.python] provider FAILED
+2026-08-09 14:20:56.908 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:20:56.911 [error] [ms-python.python] provider FAILED
+2026-08-09 14:20:56.911 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:21:02.607 [error] [ms-python.python] provider FAILED
+2026-08-09 14:21:02.607 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:21:03.060 [error] [ms-python.python] provider FAILED
+2026-08-09 14:21:03.060 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:21:04.215 [error] [ms-python.python] provider FAILED
+2026-08-09 14:21:04.215 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:21:06.449 [error] [ms-python.python] provider FAILED
+2026-08-09 14:21:06.450 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:21:08.353 [error] [ms-python.python] provider FAILED
+2026-08-09 14:21:08.353 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:21:08.399 [error] [ms-python.python] provider FAILED
+2026-08-09 14:21:08.399 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:21:08.822 [error] [ms-python.python] provider FAILED
+2026-08-09 14:21:08.822 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:22:46.837 [error] [ms-python.python] provider FAILED
+2026-08-09 14:22:46.837 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:22:46.845 [error] [ms-python.python] provider FAILED
+2026-08-09 14:22:46.845 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:22:46.886 [error] [ms-python.python] provider FAILED
+2026-08-09 14:22:46.886 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:22:47.129 [error] [ms-python.python] provider FAILED
+2026-08-09 14:22:47.129 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:22:47.325 [error] [ms-python.python] provider FAILED
+2026-08-09 14:22:47.325 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:23:04.728 [error] [ms-python.python] provider FAILED
+2026-08-09 14:23:04.728 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:23:04.817 [error] [ms-python.python] provider FAILED
+2026-08-09 14:23:04.817 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:23:04.995 [error] [ms-python.python] provider FAILED
+2026-08-09 14:23:04.995 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:23:05.488 [error] [ms-python.python] provider FAILED
+2026-08-09 14:23:05.488 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:23:05.571 [error] [ms-python.python] provider FAILED
+2026-08-09 14:23:05.571 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:23:06.511 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2026-08-09 14:23:06.512 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2026-08-09 14:23:07.403 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2026-08-09 14:26:05.815 [error] [ms-python.python] provider FAILED
+2026-08-09 14:26:05.815 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:26:05.852 [error] [ms-python.python] provider FAILED
+2026-08-09 14:26:05.852 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:26:06.094 [error] [ms-python.python] provider FAILED
+2026-08-09 14:26:06.094 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:26:06.295 [error] [ms-python.python] provider FAILED
+2026-08-09 14:26:06.295 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:26:07.137 [error] [ms-python.python] provider FAILED
+2026-08-09 14:26:07.137 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:26:07.170 [error] [ms-python.python] provider FAILED
+2026-08-09 14:26:07.170 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:26:07.628 [error] [ms-python.python] provider FAILED
+2026-08-09 14:26:07.628 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:26:09.009 [error] [ms-python.python] provider FAILED
+2026-08-09 14:26:09.009 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:26:09.017 [error] [ms-python.python] provider FAILED
+2026-08-09 14:26:09.017 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:26:09.017 [error] [ms-python.python] provider FAILED
+2026-08-09 14:26:09.017 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:26:09.246 [error] [ms-python.python] provider FAILED
+2026-08-09 14:26:09.246 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:26:09.414 [error] [ms-python.python] provider FAILED
+2026-08-09 14:26:09.414 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:26:18.065 [error] [ms-python.python] provider FAILED
+2026-08-09 14:26:18.066 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:26:18.099 [error] [ms-python.python] provider FAILED
+2026-08-09 14:26:18.099 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:26:18.624 [error] [ms-python.python] provider FAILED
+2026-08-09 14:26:18.624 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:26:18.664 [error] [ms-python.python] provider FAILED
+2026-08-09 14:26:18.664 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:26:18.897 [error] [ms-python.python] provider FAILED
+2026-08-09 14:26:18.897 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:26:19.053 [error] [ms-python.python] provider FAILED
+2026-08-09 14:26:19.053 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:26:28.503 [error] [ms-python.python] provider FAILED
+2026-08-09 14:26:28.504 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:26:30.404 [error] [ms-python.python] provider FAILED
+2026-08-09 14:26:30.404 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:26:31.674 [error] [ms-python.python] provider FAILED
+2026-08-09 14:26:31.674 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:26:31.733 [error] [ms-python.python] provider FAILED
+2026-08-09 14:26:31.733 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:26:32.085 [error] [ms-python.python] provider FAILED
+2026-08-09 14:26:32.085 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:26:51.346 [error] [ms-python.python] provider FAILED
+2026-08-09 14:26:51.346 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:26:52.547 [error] [ms-python.python] provider FAILED
+2026-08-09 14:26:52.547 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:27:00.043 [error] [ms-python.python] provider FAILED
+2026-08-09 14:27:00.043 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:27:00.941 [error] [ms-python.python] provider FAILED
+2026-08-09 14:27:00.941 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:28:14.820 [error] [ms-python.python] provider FAILED
+2026-08-09 14:28:14.821 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:28:17.491 [error] [ms-python.python] provider FAILED
+2026-08-09 14:28:17.491 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:28:21.366 [error] [ms-python.python] provider FAILED
+2026-08-09 14:28:21.366 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:28:34.887 [error] [ms-python.python] provider FAILED
+2026-08-09 14:28:34.887 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:28:34.907 [error] [ms-python.python] provider FAILED
+2026-08-09 14:28:34.907 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:28:35.099 [error] [ms-python.python] provider FAILED
+2026-08-09 14:28:35.099 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:28:35.233 [error] [ms-python.python] provider FAILED
+2026-08-09 14:28:35.233 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:28:37.169 [error] [ms-python.python] provider FAILED
+2026-08-09 14:28:37.169 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:28:42.233 [error] [ms-python.python] provider FAILED
+2026-08-09 14:28:42.233 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:28:43.153 [error] [ms-python.python] provider FAILED
+2026-08-09 14:28:43.153 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:28:43.835 [error] [ms-python.python] provider FAILED
+2026-08-09 14:28:43.835 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:29:07.364 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2026-08-09 14:29:33.221 [info] ExtensionService#_doActivateExtension ms-vscode.js-debug, startup: false, activationEvent: 'onDebugInitialConfigurations'
+2026-08-09 14:29:33.221 [info] ExtensionService#_doActivateExtension muhammad-sammy.csharp, startup: false, activationEvent: 'onDebugInitialConfigurations'
+2026-08-09 14:29:33.225 [info] ExtensionService#_doActivateExtension vscjava.vscode-java-debug, startup: false, activationEvent: 'onDebugInitialConfigurations'
+2026-08-09 14:30:00.028 [error] [ms-python.python] provider FAILED
+2026-08-09 14:30:00.028 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:30:00.107 [error] [ms-python.python] provider FAILED
+2026-08-09 14:30:00.107 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:30:00.241 [error] [ms-python.python] provider FAILED
+2026-08-09 14:30:00.242 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:30:02.359 [error] [ms-python.python] provider FAILED
+2026-08-09 14:30:02.359 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:30:02.422 [error] [ms-python.python] provider FAILED
+2026-08-09 14:30:02.422 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:30:02.576 [error] [ms-python.python] provider FAILED
+2026-08-09 14:30:02.576 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:30:21.588 [error] [ms-python.python] provider FAILED
+2026-08-09 14:30:21.589 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:30:21.993 [error] [ms-python.python] provider FAILED
+2026-08-09 14:30:21.993 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:30:31.704 [error] [ms-python.python] provider FAILED
+2026-08-09 14:30:31.704 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:30:34.159 [error] [ms-python.python] provider FAILED
+2026-08-09 14:30:34.159 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:30:45.692 [error] [ms-python.python] provider FAILED
+2026-08-09 14:30:45.692 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:43:31.878 [error] [ms-python.python] provider FAILED
+2026-08-09 14:43:31.879 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:43:31.891 [error] [ms-python.python] provider FAILED
+2026-08-09 14:43:31.891 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:43:32.218 [error] [ms-python.python] provider FAILED
+2026-08-09 14:43:32.218 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:43:32.875 [error] [ms-python.python] provider FAILED
+2026-08-09 14:43:32.875 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:43:32.881 [error] [ms-python.python] provider FAILED
+2026-08-09 14:43:32.881 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:43:32.883 [error] [ms-python.python] provider FAILED
+2026-08-09 14:43:32.885 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:43:33.397 [error] [ms-python.python] provider FAILED
+2026-08-09 14:43:33.397 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:43:33.404 [error] [ms-python.python] provider FAILED
+2026-08-09 14:43:33.408 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:51:33.013 [error] [ms-python.python] provider FAILED
+2026-08-09 14:51:33.014 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:51:37.716 [error] [ms-python.python] provider FAILED
+2026-08-09 14:51:37.716 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:58:51.301 [error] [ms-python.python] provider FAILED
+2026-08-09 14:58:51.302 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 14:59:00.408 [error] [ms-python.python] provider FAILED
+2026-08-09 14:59:00.408 [error] Error: _pickle.UnpicklingError: invalid load key, 'A'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-09 16:25:06.322 [info] Extension host terminating: received terminate message from renderer
+2026-08-09 16:25:06.323 [info] Lock '/voc/work/.local/share/code-server/User/workspaceStorage/bd6e400/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2026-08-09 16:25:06.370 [info] Extension host with pid 103 exiting with code 0

@@ -1,0 +1,23 @@
+2026-08-16 15:09:19.709 [info] semantic_tokens_full file:///voc/work/sample1.py 
+2026-08-16 15:09:20.218 [info] semantic_tokens_full file:///voc/work/hello_llm.py 
+2026-08-16 15:09:20.784 [info] semantic_tokens_range file:///voc/work/hello_llm.py 0:0-20:17
+2026-08-16 15:09:20.871 [info] [Debug - 3:09:20 PM] multiple definitions found for name "model" of type 'statement' (11:8):
+ <Name name='model', description='param model: Union[str, ChatModel]'>
+<Name name='model', description='param model: Union[str, ChatModel]'>
+<Name name='model', description='param model: Union[str, ChatModel]'>
+2026-08-16 15:09:20.873 [info] [Debug - 3:09:20 PM] multiple definitions found for name "messages" of type 'statement' (12:8):
+ <Name name='messages', description='param messages: Iterable[ChatCompletionMessageParam]'>
+<Name name='messages', description='param messages: Iterable[ChatCompletionMessageParam]'>
+<Name name='messages', description='param messages: Iterable[ChatCompletionMessageParam]'>
+2026-08-16 15:09:21.221 [info] [Debug - 3:09:21 PM] multiple definitions found for name "model" of type 'statement' (11:8):
+ <Name name='model', description='param model: Union[str, ChatModel]'>
+<Name name='model', description='param model: Union[str, ChatModel]'>
+<Name name='model', description='param model: Union[str, ChatModel]'>
+2026-08-16 15:09:21.222 [info] [Debug - 3:09:21 PM] multiple definitions found for name "messages" of type 'statement' (12:8):
+ <Name name='messages', description='param messages: Iterable[ChatCompletionMessageParam]'>
+<Name name='messages', description='param messages: Iterable[ChatCompletionMessageParam]'>
+<Name name='messages', description='param messages: Iterable[ChatCompletionMessageParam]'>
+2026-08-16 15:09:22.117 [info] [Debug - 3:09:22 PM] no matching semantic token for "__name__" of type 'statement' (19:3)
+2026-08-16 15:09:22.182 [info] [Debug - 3:09:22 PM] no matching semantic token for "__name__" of type 'statement' (19:3)
+2026-08-16 15:11:58.672 [info] WARNING:pygls.protocol.json_rpc:Cancel notification for unknown message id "42"
+
