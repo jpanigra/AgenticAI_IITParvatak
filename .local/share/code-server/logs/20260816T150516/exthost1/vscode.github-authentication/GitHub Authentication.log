@@ -15,3 +15,5 @@
 2026-08-16 15:13:52.856 [info] Logging in for the following scopes: read:user repo user:email workflow
 2026-08-16 15:13:53.345 [info] Trying device code flow... (read:user repo user:email workflow)
 2026-08-16 15:17:09.888 [error] Timed out
+2026-08-16 15:18:44.075 [info] Trying to retrieve PAT... (read:user repo user:email workflow)
+2026-08-16 15:24:39.828 [error] User Cancelled

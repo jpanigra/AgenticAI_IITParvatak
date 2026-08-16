@@ -40,3 +40,6 @@
 2026-08-16 15:09:19.985 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
 2026-08-16 15:09:39.788 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
 2026-08-16 15:13:50.206 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-08-16 15:24:39.790 [info] Extension host terminating: received terminate message from renderer
+2026-08-16 15:24:39.791 [info] Lock '/voc/work/.local/share/code-server/User/workspaceStorage/7d755c42/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2026-08-16 15:24:39.837 [info] Extension host with pid 77 exiting with code 0

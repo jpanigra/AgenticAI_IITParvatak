@@ -1,0 +1,15 @@
+2026-08-16 15:34:59.803 [info] Telemetry level is off
+2026-08-16 15:34:59.803 [info] Experiments are disabled, only manually opted experiments are active.
+2026-08-16 15:34:59.803 [warning] Dir "/voc/work/.pixi/envs" is not watchable (directory does not exist)
+2026-08-16 15:34:59.803 [info] Starting Environment refresh
+2026-08-16 15:34:59.803 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-08-16 15:34:59.803 [info] > hatch env show --json
+2026-08-16 15:34:59.803 [info] cwd: .
+2026-08-16 15:34:59.803 [info] Python interpreter path: /bin/python
+2026-08-16 15:34:59.840 [info] > /bin/python -I /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/get_output_via_markers.py /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/interpreterInfo.py
+2026-08-16 15:34:59.861 [info] Environments refresh paths discovered: 76 milliseconds
+2026-08-16 15:34:59.867 [info] Environments refresh finished (event): 82 milliseconds
+2026-08-16 15:34:59.869 [info] Environment refresh took 85 milliseconds
+2026-08-16 15:35:00.322 [info] > pyenv which python
+2026-08-16 15:35:00.322 [info] cwd: .
+2026-08-16 15:35:01.316 [info] Starting Jedi language server for work.

@@ -170,3 +170,168 @@ Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
 2026-08-16 15:17:14.731 [warning] [Git][getBranch] No such branch: master
 2026-08-16 15:17:14.746 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [11ms]
 2026-08-16 15:17:14.810 [info] > git status -z -uall [77ms]
+2026-08-16 15:17:24.424 [info] > git add -A -- . [5871ms]
+2026-08-16 15:17:27.992 [info] > git check-ignore -v -z --stdin [13ms]
+2026-08-16 15:17:28.049 [info] > git show --textconv :.git/COMMIT_EDITMSG [12ms]
+2026-08-16 15:17:28.052 [info] > git ls-files --stage -- .git/COMMIT_EDITMSG [13ms]
+2026-08-16 15:17:28.058 [info] > git hash-object -t tree /dev/null [7ms]
+2026-08-16 15:17:28.059 [warning] [GitFileSystemProvider][readFile] File not found - git:/voc/work/.git/COMMIT_EDITMSG.git?%7B%22path%22%3A%22%2Fvoc%2Fwork%2F.git%2FCOMMIT_EDITMSG%22%2C%22ref%22%3A%22%22%7D
+2026-08-16 15:17:28.063 [info] > git hash-object -t tree /dev/null [9ms]
+2026-08-16 15:17:28.066 [warning] [GitFileSystemProvider][stat] File not found - git:/voc/work/.git/COMMIT_EDITMSG.git?%7B%22path%22%3A%22%2Fvoc%2Fwork%2F.git%2FCOMMIT_EDITMSG%22%2C%22ref%22%3A%22%22%7D
+2026-08-16 15:17:50.169 [info] > git -c user.useConfigOnly=true commit --quiet [25742ms]
+2026-08-16 15:17:50.169 [info] Aborting commit due to empty commit message.
+2026-08-16 15:17:50.176 [info] [Git][getRemotes] No remotes found in the git config file
+2026-08-16 15:17:50.179 [info] > git config --get commit.template [7ms]
+2026-08-16 15:17:50.187 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [11ms]
+2026-08-16 15:17:50.187 [warning] [Git][getBranch] No such branch: master
+2026-08-16 15:17:50.202 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [11ms]
+2026-08-16 15:17:50.372 [info] > git status -z -uall [183ms]
+2026-08-16 15:17:50.381 [info] [Git][getRemotes] No remotes found in the git config file
+2026-08-16 15:17:50.387 [info] > git config --get commit.template [7ms]
+2026-08-16 15:17:50.392 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [9ms]
+2026-08-16 15:17:50.392 [warning] [Git][getBranch] No such branch: master
+2026-08-16 15:17:50.406 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [10ms]
+2026-08-16 15:17:50.491 [info] > git status -z -uall [97ms]
+2026-08-16 15:17:50.869 [info] > git show --textconv HEAD:W1_package/docs/adr/ADR.MD [14ms]
+2026-08-16 15:17:50.869 [warning] [GitFileSystemProvider][readFile] File not found - git:/voc/work/W1_package/docs/adr/ADR.MD.git?%7B%22path%22%3A%22%2Fvoc%2Fwork%2FW1_package%2Fdocs%2Fadr%2FADR.MD%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-08-16 15:17:50.873 [info] > git ls-files --stage -- W1_package/docs/adr/ADR.MD [16ms]
+2026-08-16 15:17:50.875 [info] > git ls-tree -l HEAD -- W1_package/docs/adr/ADR.MD [16ms]
+2026-08-16 15:17:50.877 [info] fatal: Not a valid object name HEAD
+2026-08-16 15:17:50.878 [warning] [GitFileSystemProvider][stat] File not found - git:/voc/work/W1_package/docs/adr/ADR.MD.git?%7B%22path%22%3A%22%2Fvoc%2Fwork%2FW1_package%2Fdocs%2Fadr%2FADR.MD%22%2C%22ref%22%3A%22HEAD%22%7D
+2026-08-16 15:17:50.878 [info] > git show --textconv :W1_package/docs/adr/ADR.MD [26ms]
+2026-08-16 15:17:50.889 [info] > git cat-file -s 2525547196611fab31d4c6c588f0f3f5c92b6251 [14ms]
+2026-08-16 15:17:53.301 [info] > git check-ignore -v -z --stdin [12ms]
+2026-08-16 15:17:55.501 [info] [Git][getRemotes] No remotes found in the git config file
+2026-08-16 15:17:55.505 [info] > git config --get commit.template [7ms]
+2026-08-16 15:17:55.511 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [11ms]
+2026-08-16 15:17:55.511 [warning] [Git][getBranch] No such branch: master
+2026-08-16 15:17:55.527 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [12ms]
+2026-08-16 15:17:55.592 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat -n50 --skip=0 --topo-order --decorate=full --stdin [10ms]
+2026-08-16 15:17:55.592 [info] fatal: bad revision 'refs/heads/master'
+2026-08-16 15:17:55.592 [error] [GitHistoryProvider][provideHistoryItems] Failed to get history items with options '{"historyItemRefs":["refs/heads/master"],"limit":50,"skip":0}': Failed to execute git {
+  "exitCode": 128,
+  "gitCommand": "log",
+  "stdout": "",
+  "stderr": "fatal: bad revision 'refs/heads/master'\n"
+}
+2026-08-16 15:17:55.600 [info] > git status -z -uall [87ms]
+2026-08-16 15:18:00.609 [info] [Git][getRemotes] No remotes found in the git config file
+2026-08-16 15:18:00.614 [info] > git config --get commit.template [8ms]
+2026-08-16 15:18:00.621 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [12ms]
+2026-08-16 15:18:00.621 [warning] [Git][getBranch] No such branch: master
+2026-08-16 15:18:00.635 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [10ms]
+2026-08-16 15:18:00.703 [info] > git status -z -uall [80ms]
+2026-08-16 15:18:05.713 [info] [Git][getRemotes] No remotes found in the git config file
+2026-08-16 15:18:05.718 [info] > git config --get commit.template [8ms]
+2026-08-16 15:18:05.725 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [12ms]
+2026-08-16 15:18:05.725 [warning] [Git][getBranch] No such branch: master
+2026-08-16 15:18:05.742 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [13ms]
+2026-08-16 15:18:05.861 [info] > git status -z -uall [134ms]
+2026-08-16 15:18:10.870 [info] [Git][getRemotes] No remotes found in the git config file
+2026-08-16 15:18:10.877 [info] > git config --get commit.template [10ms]
+2026-08-16 15:18:10.882 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [12ms]
+2026-08-16 15:18:10.882 [warning] [Git][getBranch] No such branch: master
+2026-08-16 15:18:10.900 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [14ms]
+2026-08-16 15:18:10.986 [info] > git status -z -uall [102ms]
+2026-08-16 15:18:15.995 [info] [Git][getRemotes] No remotes found in the git config file
+2026-08-16 15:18:16.000 [info] > git config --get commit.template [7ms]
+2026-08-16 15:18:16.006 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [11ms]
+2026-08-16 15:18:16.006 [warning] [Git][getBranch] No such branch: master
+2026-08-16 15:18:16.023 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [13ms]
+2026-08-16 15:18:16.129 [info] > git status -z -uall [121ms]
+2026-08-16 15:18:21.138 [info] [Git][getRemotes] No remotes found in the git config file
+2026-08-16 15:18:21.142 [info] > git config --get commit.template [8ms]
+2026-08-16 15:18:21.149 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [11ms]
+2026-08-16 15:18:21.149 [warning] [Git][getBranch] No such branch: master
+2026-08-16 15:18:21.167 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [14ms]
+2026-08-16 15:18:21.244 [info] > git status -z -uall [93ms]
+2026-08-16 15:18:26.252 [info] [Git][getRemotes] No remotes found in the git config file
+2026-08-16 15:18:26.256 [info] > git config --get commit.template [7ms]
+2026-08-16 15:18:26.263 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [11ms]
+2026-08-16 15:18:26.263 [warning] [Git][getBranch] No such branch: master
+2026-08-16 15:18:26.279 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [12ms]
+2026-08-16 15:18:26.354 [info] > git status -z -uall [89ms]
+2026-08-16 15:18:31.361 [info] [Git][getRemotes] No remotes found in the git config file
+2026-08-16 15:18:31.369 [info] > git config --get commit.template [8ms]
+2026-08-16 15:18:31.376 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [12ms]
+2026-08-16 15:18:31.377 [warning] [Git][getBranch] No such branch: master
+2026-08-16 15:18:31.395 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [15ms]
+2026-08-16 15:18:31.515 [info] > git status -z -uall [137ms]
+2026-08-16 15:18:36.525 [info] [Git][getRemotes] No remotes found in the git config file
+2026-08-16 15:18:36.529 [info] > git config --get commit.template [7ms]
+2026-08-16 15:18:36.535 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [10ms]
+2026-08-16 15:18:36.535 [warning] [Git][getBranch] No such branch: master
+2026-08-16 15:18:36.550 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [11ms]
+2026-08-16 15:18:36.619 [info] > git status -z -uall [82ms]
+2026-08-16 15:18:41.627 [info] [Git][getRemotes] No remotes found in the git config file
+2026-08-16 15:18:41.631 [info] > git config --get commit.template [7ms]
+2026-08-16 15:18:41.636 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [9ms]
+2026-08-16 15:18:41.636 [warning] [Git][getBranch] No such branch: master
+2026-08-16 15:18:41.652 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [12ms]
+2026-08-16 15:18:41.745 [info] > git status -z -uall [107ms]
+2026-08-16 15:18:46.754 [info] [Git][getRemotes] No remotes found in the git config file
+2026-08-16 15:18:46.759 [info] > git config --get commit.template [8ms]
+2026-08-16 15:18:46.764 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [10ms]
+2026-08-16 15:18:46.765 [warning] [Git][getBranch] No such branch: master
+2026-08-16 15:18:46.782 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [13ms]
+2026-08-16 15:18:46.856 [info] > git status -z -uall [89ms]
+2026-08-16 15:20:33.889 [info] [Git][getRemotes] No remotes found in the git config file
+2026-08-16 15:20:33.898 [info] > git config --get commit.template [13ms]
+2026-08-16 15:20:33.903 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [14ms]
+2026-08-16 15:20:33.903 [warning] [Git][getBranch] No such branch: master
+2026-08-16 15:20:33.920 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [13ms]
+2026-08-16 15:20:34.179 [info] > git status -z -uall [274ms]
+2026-08-16 15:20:39.188 [info] [Git][getRemotes] No remotes found in the git config file
+2026-08-16 15:20:39.192 [info] > git config --get commit.template [8ms]
+2026-08-16 15:20:39.198 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [11ms]
+2026-08-16 15:20:39.198 [warning] [Git][getBranch] No such branch: master
+2026-08-16 15:20:39.213 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [11ms]
+2026-08-16 15:20:39.281 [info] > git status -z -uall [80ms]
+2026-08-16 15:20:44.290 [info] [Git][getRemotes] No remotes found in the git config file
+2026-08-16 15:20:44.293 [info] > git config --get commit.template [6ms]
+2026-08-16 15:20:44.300 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [11ms]
+2026-08-16 15:20:44.300 [warning] [Git][getBranch] No such branch: master
+2026-08-16 15:20:44.316 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [12ms]
+2026-08-16 15:20:44.386 [info] > git status -z -uall [84ms]
+2026-08-16 15:21:11.448 [info] [Git][getRemotes] No remotes found in the git config file
+2026-08-16 15:21:11.453 [info] > git config --get commit.template [8ms]
+2026-08-16 15:21:11.459 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [11ms]
+2026-08-16 15:21:11.459 [warning] [Git][getBranch] No such branch: master
+2026-08-16 15:21:11.473 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [11ms]
+2026-08-16 15:21:11.543 [info] > git status -z -uall [82ms]
+2026-08-16 15:21:16.549 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat -n50 --skip=0 --topo-order --decorate=full --stdin [11ms]
+2026-08-16 15:21:16.549 [info] fatal: bad revision 'refs/heads/master'
+2026-08-16 15:21:16.549 [error] [GitHistoryProvider][provideHistoryItems] Failed to get history items with options '{"historyItemRefs":["refs/heads/master"],"limit":50,"skip":0}': Failed to execute git {
+  "exitCode": 128,
+  "gitCommand": "log",
+  "stdout": "",
+  "stderr": "fatal: bad revision 'refs/heads/master'\n"
+}
+2026-08-16 15:21:16.556 [info] [Git][getRemotes] No remotes found in the git config file
+2026-08-16 15:21:16.556 [info] > git config --get commit.template [8ms]
+2026-08-16 15:21:16.566 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [10ms]
+2026-08-16 15:21:16.566 [warning] [Git][getBranch] No such branch: master
+2026-08-16 15:21:16.581 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [12ms]
+2026-08-16 15:21:16.650 [info] > git status -z -uall [82ms]
+2026-08-16 15:21:21.659 [info] [Git][getRemotes] No remotes found in the git config file
+2026-08-16 15:21:21.664 [info] > git config --get commit.template [7ms]
+2026-08-16 15:21:21.670 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [11ms]
+2026-08-16 15:21:21.670 [warning] [Git][getBranch] No such branch: master
+2026-08-16 15:21:21.686 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [12ms]
+2026-08-16 15:21:21.757 [info] > git status -z -uall [85ms]
+2026-08-16 15:21:26.766 [info] [Git][getRemotes] No remotes found in the git config file
+2026-08-16 15:21:26.772 [info] > git config --get commit.template [8ms]
+2026-08-16 15:21:26.779 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [13ms]
+2026-08-16 15:21:26.779 [warning] [Git][getBranch] No such branch: master
+2026-08-16 15:21:26.798 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [12ms]
+2026-08-16 15:21:26.869 [info] > git status -z -uall [85ms]
+2026-08-16 15:21:31.874 [info] [Git][getRemotes] No remotes found in the git config file
+2026-08-16 15:21:31.882 [info] > git config --get commit.template [9ms]
+2026-08-16 15:21:31.887 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [11ms]
+2026-08-16 15:21:31.887 [warning] [Git][getBranch] No such branch: master
+2026-08-16 15:21:31.903 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [12ms]
+2026-08-16 15:21:31.973 [info] > git status -z -uall [84ms]
+2026-08-16 15:21:33.753 [info] > git show --textconv :.git/COMMIT_EDITMSG [10ms]
+2026-08-16 15:21:33.754 [warning] [GitFileSystemProvider][readFile] File not found - git:/voc/work/.git/COMMIT_EDITMSG.git?%7B%22path%22%3A%22%2Fvoc%2Fwork%2F.git%2FCOMMIT_EDITMSG%22%2C%22ref%22%3A%22%22%7D
+2026-08-16 15:21:33.757 [info] > git ls-files --stage -- .git/COMMIT_EDITMSG [12ms]
+2026-08-16 15:21:33.757 [warning] [GitFileSystemProvider][stat] File not found - git:/voc/work/.git/COMMIT_EDITMSG.git?%7B%22path%22%3A%22%2Fvoc%2Fwork%2F.git%2FCOMMIT_EDITMSG%22%2C%22ref%22%3A%22%22%7D

@@ -59,3 +59,18 @@
 [15:05:23] [172.16.14.1][b2525a9f][ManagementConnection] New connection established.
 [15:05:27] [172.16.14.1][28cd7799][ExtensionHostConnection] New connection established.
 [15:05:27] [172.16.14.1][28cd7799][ExtensionHostConnection] <77> Launched Extension Host Process.
+[15:24:39] [172.16.14.1][b2525a9f][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[15:24:39] [172.16.14.1][28cd7799][ExtensionHostConnection] <77> Extension Host Process exited with code: 0, signal: null.
+[15:25:12] [172.16.14.1][30b528ae][ManagementConnection] New connection established.
+[15:25:16] [172.16.14.1][c890c488][ExtensionHostConnection] New connection established.
+[15:25:16] [172.16.14.1][c890c488][ExtensionHostConnection] <3897> Launched Extension Host Process.
+[16:26:40] [172.16.14.1][30b528ae][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[16:26:40] [172.16.14.1][c890c488][ExtensionHostConnection] <3897> Extension Host Process exited with code: 0, signal: null.
+[16:26:50] [172.16.14.1][42c1207a][ManagementConnection] New connection established.
+[16:26:54] [172.16.14.1][a5443a4f][ExtensionHostConnection] New connection established.
+[16:26:54] [172.16.14.1][a5443a4f][ExtensionHostConnection] <16951> Launched Extension Host Process.
+[16:34:12] [172.16.14.1][42c1207a][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[16:34:12] [172.16.14.1][a5443a4f][ExtensionHostConnection] <16951> Extension Host Process exited with code: 0, signal: null.
+[16:35:38] [172.16.14.1][2f2da705][ManagementConnection] New connection established.
+[16:35:41] [172.16.14.1][01d69a36][ExtensionHostConnection] New connection established.
+[16:35:41] [172.16.14.1][01d69a36][ExtensionHostConnection] <19501> Launched Extension Host Process.
