@@ -1,0 +1,72 @@
+2026-08-22 14:03:35.518 [info] Telemetry level is off
+2026-08-22 14:03:35.518 [info] Experiments are disabled, only manually opted experiments are active.
+2026-08-22 14:03:35.522 [warning] Dir "/voc/work/.pixi/envs" is not watchable (directory does not exist)
+2026-08-22 14:03:35.522 [info] Starting Environment refresh
+2026-08-22 14:03:35.522 [info] Searching for interpreters in posix paths locator
+2026-08-22 14:03:35.522 [info] Searching for pyenv environments
+2026-08-22 14:03:35.522 [info] Searching for conda environments
+2026-08-22 14:03:35.522 [info] Searching for global virtual environments
+2026-08-22 14:03:35.522 [info] Searching for custom virtual environments
+2026-08-22 14:03:35.522 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-08-22 14:03:35.522 [info] Skipping ActivatedEnv Detection:  process.env.VSCODE_CLI !== '1'
+2026-08-22 14:03:35.522 [info] pyenv is not installed
+2026-08-22 14:03:35.522 [info] Finished searching for pyenv environments: 40 milliseconds
+2026-08-22 14:03:35.522 [info] Finished searching for custom virtual envs: 39 milliseconds
+2026-08-22 14:03:35.522 [info] > conda info --json
+2026-08-22 14:03:35.522 [info] > hatch env show --json
+2026-08-22 14:03:35.522 [info] cwd: .
+2026-08-22 14:03:35.522 [info] > pyenv which python
+2026-08-22 14:03:35.522 [info] cwd: .
+2026-08-22 14:03:35.522 [info] Finished searching for global virtual envs: 103 milliseconds
+2026-08-22 14:03:35.522 [info] Found: /bin/python --> /bin/python3.10
+2026-08-22 14:03:35.522 [info] Found: /bin/python3 --> /bin/python3.10
+2026-08-22 14:03:35.523 [info] Found: /bin/python3.10 --> /bin/python3.10
+2026-08-22 14:03:35.529 [info] Found: /bin/python3.8 --> /bin/python3.8
+2026-08-22 14:03:35.546 [info] Found: /usr/bin/python --> /usr/bin/python3.10
+2026-08-22 14:03:35.546 [info] Found: /usr/bin/python3 --> /usr/bin/python3.10
+2026-08-22 14:03:35.549 [info] Found: /usr/bin/python3.10 --> /usr/bin/python3.10
+2026-08-22 14:03:35.550 [info] Found: /usr/bin/python3.8 --> /usr/bin/python3.8
+2026-08-22 14:03:35.574 [info] > /bin/python -I /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/get_output_via_markers.py /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/interpreterInfo.py
+2026-08-22 14:03:35.584 [info] > /bin/python3.8 -I /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/get_output_via_markers.py /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/interpreterInfo.py
+2026-08-22 14:03:35.591 [info] Finished searching for interpreters in posix paths locator: 208 milliseconds
+2026-08-22 14:03:35.600 [info] Environments refresh paths discovered (event): 217 milliseconds
+2026-08-22 14:03:35.601 [info] Environments refresh paths discovered: 217 milliseconds
+2026-08-22 14:03:35.609 [info] > /usr/bin/python -I /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/get_output_via_markers.py /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/interpreterInfo.py
+2026-08-22 14:03:35.617 [info] > /usr/bin/python3.8 -I /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/get_output_via_markers.py /usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/python_files/interpreterInfo.py
+2026-08-22 14:03:35.640 [info] Environments refresh finished (event): 257 milliseconds
+2026-08-22 14:03:35.647 [info] Environment refresh took 264 milliseconds
+2026-08-22 14:03:35.649 [info] Python interpreter path: /bin/python
+2026-08-22 14:03:36.906 [info] Starting Jedi language server for work.
+2026-08-22 14:03:48.998 [info] Discover tests for workspace name: work - uri: /voc/work/AI-RAG_W2_store.py
+2026-08-22 14:04:02.930 [info] Discover tests for workspace name: work - uri: /voc/work/AI-RAG_W2_settings.py
+2026-08-22 14:23:35.422 [info] Discover tests for workspace name: work - uri: /voc/work/pydantic_demo.py
+2026-08-22 14:23:58.868 [info] Discover tests for workspace name: work - uri: /voc/work/pydantic_demo.py
+2026-08-22 14:40:21.125 [info] Discover tests for workspace name: work - uri: /voc/work/pydantic_demo.py
+2026-08-22 14:40:23.406 [info] Discover tests for workspace name: work - uri: /voc/work/pydantic_demo.py
+2026-08-22 14:40:26.007 [info] Discover tests for workspace name: work - uri: /voc/work/pydantic_demo.py
+2026-08-22 14:40:28.607 [info] Discover tests for workspace name: work - uri: /voc/work/pydantic_demo.py
+2026-08-22 14:40:31.366 [info] Discover tests for workspace name: work - uri: /voc/work/pydantic_demo.py
+2026-08-22 14:40:32.790 [info] Discover tests for workspace name: work - uri: /voc/work/pydantic_demo.py
+2026-08-22 14:41:15.916 [info] Discover tests for workspace name: work - uri: /voc/work/pydantic_demo.py
+2026-08-22 14:41:18.207 [info] Discover tests for workspace name: work - uri: /voc/work/pydantic_demo.py
+2026-08-22 14:41:20.772 [info] Discover tests for workspace name: work - uri: /voc/work/pydantic_demo.py
+2026-08-22 14:41:24.828 [info] Discover tests for workspace name: work - uri: /voc/work/pydantic_demo.py
+2026-08-22 14:41:48.576 [info] Discover tests for workspace name: work - uri: /voc/work/pydantic_demo.py
+2026-08-22 14:41:51.092 [info] Discover tests for workspace name: work - uri: /voc/work/pydantic_demo.py
+2026-08-22 14:41:53.528 [info] Discover tests for workspace name: work - uri: /voc/work/pydantic_demo.py
+2026-08-22 14:41:55.887 [info] Discover tests for workspace name: work - uri: /voc/work/pydantic_demo.py
+2026-08-22 14:41:59.217 [info] Discover tests for workspace name: work - uri: /voc/work/pydantic_demo.py
+2026-08-22 14:42:05.877 [info] Discover tests for workspace name: work - uri: /voc/work/pydantic_demo.py
+2026-08-22 14:44:27.273 [info] Discover tests for workspace name: work - uri: /voc/work/pydantic_demo.py
+2026-08-22 14:44:41.013 [info] Discover tests for workspace name: work - uri: /voc/work/pydantic_demo.py
+2026-08-22 14:44:47.970 [info] Discover tests for workspace name: work - uri: /voc/work/pydantic_demo.py
+2026-08-22 14:47:00.945 [info] Discover tests for workspace name: work - uri: /voc/work/pydantic_demo.py
+2026-08-22 14:47:17.147 [info] Discover tests for workspace name: work - uri: /voc/work/pydantic_demo.py
+2026-08-22 14:47:34.485 [info] Discover tests for workspace name: work - uri: /voc/work/pydantic_demo.py
+2026-08-22 14:47:39.480 [info] Discover tests for workspace name: work - uri: /voc/work/pydantic_demo.py
+2026-08-22 14:51:40.718 [info] Discover tests for workspace name: work - uri: /voc/work/pydantic_demo.py
+2026-08-22 14:51:44.063 [info] Discover tests for workspace name: work - uri: /voc/work/pydantic_demo.py
+2026-08-22 14:51:46.159 [info] Discover tests for workspace name: work - uri: /voc/work/pydantic_demo.py
+2026-08-22 14:51:47.979 [info] Discover tests for workspace name: work - uri: /voc/work/pydantic_demo.py
+2026-08-22 14:53:08.450 [info] Discover tests for workspace name: work - uri: /voc/work/pydantic_demo.py
+2026-08-22 15:05:28.831 [info] Discover tests for workspace name: work - uri: /voc/work/pydantic_demo.py

@@ -1,0 +1,792 @@
+2026-08-22 16:05:56.837 [info] Extension host with pid 31988 started
+2026-08-22 16:05:56.843 [info] Lock '/voc/work/.local/share/code-server/User/workspaceStorage/547797a3/vscode.lock': Lock acquired.
+2026-08-22 16:05:57.270 [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag, startup: true, activationEvent: '*'
+2026-08-22 16:05:57.271 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-08-22 16:05:57.271 [info] ExtensionService#_doActivateExtension synedra.auto-run-command, startup: true, activationEvent: '*'
+2026-08-22 16:05:57.974 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-08-22 16:05:57.974 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-08-22 16:05:58.883 [info] Eager extensions activated
+2026-08-22 16:05:58.883 [info] ExtensionService#_doActivateExtension Anthropic.claude-code, startup: false, activationEvent: 'onStartupFinished'
+2026-08-22 16:05:58.886 [info] ExtensionService#_doActivateExtension PKief.material-icon-theme, startup: false, activationEvent: 'onStartupFinished'
+2026-08-22 16:05:58.886 [info] ExtensionService#_doActivateExtension cweijan.vscode-database-client2, startup: false, activationEvent: 'onStartupFinished'
+2026-08-22 16:05:58.890 [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+2026-08-22 16:05:58.891 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-08-22 16:05:58.895 [info] ExtensionService#_doActivateExtension ecmel.vscode-html-css, startup: false, activationEvent: 'onStartupFinished'
+2026-08-22 16:05:58.895 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-08-22 16:05:58.895 [info] ExtensionService#_doActivateExtension ms-dotnettools.vscode-dotnet-runtime, startup: false, activationEvent: 'onStartupFinished'
+2026-08-22 16:05:59.533 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-08-22 16:05:59.667 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-08-22 16:06:00.946 [error] Error: Extension dbclient-jdbc not found!
+	at r.upgradeJDBC (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/cweijan.vscode-database-client2-8.4.0/out/extension.js:177276:13)
+	at r.initTreeView (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/cweijan.vscode-database-client2-8.4.0/out/extension.js:187998:8)
+	at r.init (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/cweijan.vscode-database-client2-8.4.0/out/extension.js:187995:52)
+	at _Lr (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/cweijan.vscode-database-client2-8.4.0/out/extension.js:188948:10)
+	at vy.kb (file:///usr/local/lib/code-server-4.103.2/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:116:15342)
+	at vy.jb (file:///usr/local/lib/code-server-4.103.2/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:116:15087)
+	at file:///usr/local/lib/code-server-4.103.2/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:116:13245
+	at async Lb.n (file:///usr/local/lib/code-server-4.103.2/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:112:13382)
+	at async Lb.m (file:///usr/local/lib/code-server-4.103.2/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:112:13345)
+	at async Lb.l (file:///usr/local/lib/code-server-4.103.2/lib/vscode/out/vs/workbench/api/node/extensionHostProcess.js:112:12801)
+2026-08-22 16:06:01.003 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-08-22 16:06:01.003 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-08-22 16:06:01.007 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-08-22 16:06:01.171 [warning] DiagnosticCollection with name 'eslint' does already exist.
+2026-08-22 16:06:04.768 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-08-22 16:07:05.084 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2026-08-22 16:11:06.812 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2026-08-22 16:11:06.814 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter, startup: false, activationEvent: 'onLanguage:python'
+2026-08-22 16:11:07.516 [info] ExtensionService#_doActivateExtension ms-toolsai.jupyter-renderers, startup: false, activationEvent: 'api', root cause: ms-toolsai.jupyter
+2026-08-22 16:11:07.940 [info] ExtensionService#_doActivateExtension ms-toolsai.tensorboard, startup: false, activationEvent: 'onLanguage:python'
+2026-08-22 16:11:22.840 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2026-08-22 16:11:22.841 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2026-08-22 16:11:23.821 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2026-08-22 16:12:55.573 [warning] [Decorations] CAPPING events from decorations provider vscode.git 302
+2026-08-22 16:13:01.493 [warning] [Decorations] CAPPING events from decorations provider vscode.git 304
+2026-08-22 16:13:03.993 [error] [ms-python.python] provider FAILED
+2026-08-22 16:13:03.993 [error] Error: ValueError: invalid literal for int() with base 10: 'y\n'
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-22 16:13:03.996 [error] [ms-python.python] provider FAILED
+2026-08-22 16:13:03.996 [error] Error: _pickle.UnpicklingError: invalid load key, 'm'.
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-22 16:13:04.284 [error] [ms-python.python] provider FAILED
+2026-08-22 16:13:04.284 [error] Error: _pickle.UnpicklingError: unpickling stack underflow
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-22 16:13:06.578 [error] [ms-python.python] provider FAILED
+2026-08-22 16:13:06.579 [error] Error: _pickle.UnpicklingError: unpickling stack underflow
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-22 16:13:06.586 [warning] [Decorations] CAPPING events from decorations provider vscode.git 329
+2026-08-22 16:13:06.793 [error] [ms-python.python] provider FAILED
+2026-08-22 16:13:06.793 [error] Error: _pickle.UnpicklingError: unpickling stack underflow
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-22 16:13:06.869 [error] [ms-python.python] provider FAILED
+2026-08-22 16:13:06.869 [error] Error: _pickle.UnpicklingError: unpickling stack underflow
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-22 16:13:06.874 [error] [ms-python.python] provider FAILED
+2026-08-22 16:13:06.878 [error] Error: _pickle.UnpicklingError: unpickling stack underflow
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-22 16:13:08.973 [error] [ms-python.python] provider FAILED
+2026-08-22 16:13:08.973 [error] Error: _pickle.UnpicklingError: unpickling stack underflow
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-22 16:13:09.046 [error] [ms-python.python] provider FAILED
+2026-08-22 16:13:09.046 [error] Error: _pickle.UnpicklingError: unpickling stack underflow
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-22 16:13:09.141 [error] [ms-python.python] provider FAILED
+2026-08-22 16:13:09.141 [error] Error: _pickle.UnpicklingError: unpickling stack underflow
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-22 16:13:09.774 [error] [ms-python.python] provider FAILED
+2026-08-22 16:13:09.774 [error] Error: _pickle.UnpicklingError: unpickling stack underflow
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-22 16:13:12.092 [error] [ms-python.python] provider FAILED
+2026-08-22 16:13:12.092 [error] Error: _pickle.UnpicklingError: unpickling stack underflow
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-22 16:13:12.135 [error] [ms-python.python] provider FAILED
+2026-08-22 16:13:12.135 [error] Error: _pickle.UnpicklingError: unpickling stack underflow
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-22 16:13:12.440 [error] [ms-python.python] provider FAILED
+2026-08-22 16:13:12.440 [error] Error: _pickle.UnpicklingError: unpickling stack underflow
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-22 16:13:12.540 [error] [ms-python.python] provider FAILED
+2026-08-22 16:13:12.540 [error] Error: _pickle.UnpicklingError: unpickling stack underflow
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-22 16:13:15.534 [warning] [Decorations] CAPPING events from decorations provider vscode.git 331
+2026-08-22 16:13:15.685 [error] [ms-python.python] provider FAILED
+2026-08-22 16:13:15.686 [error] Error: _pickle.UnpicklingError: unpickling stack underflow
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-22 16:13:15.721 [error] [ms-python.python] provider FAILED
+2026-08-22 16:13:15.721 [error] Error: _pickle.UnpicklingError: unpickling stack underflow
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-22 16:13:15.979 [error] [ms-python.python] provider FAILED
+2026-08-22 16:13:15.979 [error] Error: _pickle.UnpicklingError: unpickling stack underflow
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-22 16:13:16.119 [error] [ms-python.python] provider FAILED
+2026-08-22 16:13:16.119 [error] Error: _pickle.UnpicklingError: unpickling stack underflow
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-22 16:13:17.528 [error] [ms-python.python] provider FAILED
+2026-08-22 16:13:17.528 [error] Error: _pickle.UnpicklingError: unpickling stack underflow
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-22 16:13:17.597 [error] [ms-python.python] provider FAILED
+2026-08-22 16:13:17.597 [error] Error: _pickle.UnpicklingError: unpickling stack underflow
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-22 16:13:17.662 [error] [ms-python.python] provider FAILED
+2026-08-22 16:13:17.662 [error] Error: _pickle.UnpicklingError: unpickling stack underflow
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-22 16:13:17.816 [error] [ms-python.python] provider FAILED
+2026-08-22 16:13:17.816 [error] Error: _pickle.UnpicklingError: unpickling stack underflow
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-22 16:13:18.539 [error] [ms-python.python] provider FAILED
+2026-08-22 16:13:18.539 [error] Error: _pickle.UnpicklingError: unpickling stack underflow
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-22 16:13:18.674 [error] [ms-python.python] provider FAILED
+2026-08-22 16:13:18.674 [error] Error: _pickle.UnpicklingError: unpickling stack underflow
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-22 16:13:20.438 [error] [ms-python.python] provider FAILED
+2026-08-22 16:13:20.439 [error] Error: _pickle.UnpicklingError: unpickling stack underflow
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-22 16:13:20.506 [error] [ms-python.python] provider FAILED
+2026-08-22 16:13:20.506 [error] Error: _pickle.UnpicklingError: unpickling stack underflow
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-22 16:13:20.627 [warning] [Decorations] CAPPING events from decorations provider vscode.git 332
+2026-08-22 16:13:20.682 [error] [ms-python.python] provider FAILED
+2026-08-22 16:13:20.682 [error] Error: _pickle.UnpicklingError: unpickling stack underflow
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-22 16:13:20.780 [error] [ms-python.python] provider FAILED
+2026-08-22 16:13:20.780 [error] Error: _pickle.UnpicklingError: unpickling stack underflow
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-22 16:13:24.389 [error] [ms-python.python] provider FAILED
+2026-08-22 16:13:24.389 [error] Error: _pickle.UnpicklingError: unpickling stack underflow
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-22 16:13:24.441 [error] [ms-python.python] provider FAILED
+2026-08-22 16:13:24.441 [error] Error: _pickle.UnpicklingError: unpickling stack underflow
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-22 16:13:24.442 [error] [ms-python.python] provider FAILED
+2026-08-22 16:13:24.442 [error] Error: _pickle.UnpicklingError: unpickling stack underflow
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-22 16:13:24.518 [error] [ms-python.python] provider FAILED
+2026-08-22 16:13:24.518 [error] Error: _pickle.UnpicklingError: unpickling stack underflow
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-22 16:13:25.732 [warning] [Decorations] CAPPING events from decorations provider vscode.git 334
+2026-08-22 16:13:27.452 [error] [ms-python.python] provider FAILED
+2026-08-22 16:13:27.453 [error] Error: _pickle.UnpicklingError: unpickling stack underflow
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-22 16:13:27.540 [error] [ms-python.python] provider FAILED
+2026-08-22 16:13:27.541 [error] Error: _pickle.UnpicklingError: unpickling stack underflow
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-22 16:13:27.760 [error] [ms-python.python] provider FAILED
+2026-08-22 16:13:27.760 [error] Error: _pickle.UnpicklingError: unpickling stack underflow
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-22 16:13:28.099 [error] [ms-python.python] provider FAILED
+2026-08-22 16:13:28.099 [error] Error: _pickle.UnpicklingError: unpickling stack underflow
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-22 16:13:33.504 [warning] [Decorations] CAPPING events from decorations provider vscode.git 335
+2026-08-22 16:13:38.595 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:13:43.700 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:13:48.797 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:13:53.898 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:13:58.994 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:14:04.119 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:14:09.212 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:14:14.299 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:14:19.424 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:14:24.511 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:14:29.605 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:14:34.706 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:14:39.791 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:14:44.883 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:14:49.983 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:14:55.072 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:15:00.166 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:15:05.272 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:15:10.370 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:15:15.463 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:15:20.581 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:15:25.672 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:15:30.761 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:15:35.866 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:15:40.956 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:15:46.051 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:15:51.139 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:15:56.228 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:16:01.568 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:16:06.711 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:16:11.837 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:16:16.930 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:16:22.056 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:16:27.149 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:16:32.239 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:16:37.335 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:16:42.429 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:16:47.523 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:16:57.779 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:17:02.871 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:17:07.988 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:17:13.096 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:17:18.183 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:17:23.296 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:17:28.389 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:17:33.480 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:17:38.578 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:17:43.676 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:17:48.768 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:17:53.892 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:17:58.991 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:18:04.086 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:18:09.201 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:18:14.309 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:18:19.408 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:18:24.526 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:18:29.614 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:18:34.700 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:18:39.802 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:18:44.903 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:18:49.999 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:18:55.094 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:19:00.189 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:19:05.290 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:19:10.401 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:19:15.490 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:19:20.588 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:19:25.708 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:19:30.790 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:19:35.872 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:19:40.960 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:19:46.043 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:19:51.132 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:19:56.216 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:20:01.308 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:20:06.395 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:20:11.500 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:20:16.593 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:20:21.682 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:20:26.800 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:20:31.889 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:20:36.974 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:20:42.068 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:20:47.155 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:20:52.236 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:20:57.323 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:21:02.411 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:21:07.498 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:21:12.604 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:21:17.689 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:21:22.777 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:21:27.891 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:21:32.979 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:21:38.062 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:21:43.153 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:21:48.252 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:21:53.408 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:21:58.492 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:22:03.585 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:22:08.673 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:22:13.778 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:22:18.867 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:22:23.951 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:22:29.065 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:22:34.153 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:22:39.266 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:22:44.360 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:22:49.451 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:22:54.552 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:22:59.651 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:23:04.758 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:23:09.856 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:23:14.981 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:23:20.073 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:23:25.159 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:23:30.278 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:23:31.077 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:23:35.418 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:23:40.509 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:23:45.625 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:24:01.225 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:24:40.123 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:24:42.449 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:24:45.214 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:24:50.317 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:24:55.414 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:25:00.509 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:26:07.336 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:26:12.434 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:26:17.530 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:26:22.619 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:26:27.716 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:26:32.809 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:26:37.909 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:26:43.002 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:26:48.094 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:26:53.181 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:26:58.276 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:27:21.747 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:27:26.848 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:27:31.942 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:27:37.031 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:27:37.430 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:27:41.169 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:27:42.122 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:27:47.221 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:27:49.133 [error] [ms-python.python] provider FAILED
+2026-08-22 16:27:49.133 [error] Error: _pickle.UnpicklingError: unpickling stack underflow
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-22 16:27:49.160 [error] [ms-python.python] provider FAILED
+2026-08-22 16:27:49.160 [error] Error: _pickle.UnpicklingError: unpickling stack underflow
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-22 16:27:50.317 [error] [ms-python.python] provider FAILED
+2026-08-22 16:27:50.317 [error] Error: _pickle.UnpicklingError: unpickling stack underflow
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-22 16:27:50.539 [error] [ms-python.python] provider FAILED
+2026-08-22 16:27:50.539 [error] Error: _pickle.UnpicklingError: unpickling stack underflow
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-22 16:27:51.627 [error] [ms-python.python] provider FAILED
+2026-08-22 16:27:51.628 [error] Error: _pickle.UnpicklingError: unpickling stack underflow
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-22 16:27:51.701 [error] [ms-python.python] provider FAILED
+2026-08-22 16:27:51.702 [error] Error: _pickle.UnpicklingError: unpickling stack underflow
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-22 16:27:52.305 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:27:57.396 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:27:57.528 [error] [ms-python.python] provider FAILED
+2026-08-22 16:27:57.528 [error] Error: _pickle.UnpicklingError: unpickling stack underflow
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-22 16:27:57.564 [error] [ms-python.python] provider FAILED
+2026-08-22 16:27:57.564 [error] Error: _pickle.UnpicklingError: unpickling stack underflow
+	at ae (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2013311)
+	at oe (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2011271)
+	at Immediate.<anonymous> (/usr/local/lib/code-server-4.103.2/lib/vscode/extensions/ms-python.python-2025.12.0/out/client/extension.js:2:2007565)
+	at process.processImmediate (node:internal/timers:485:21)
+2026-08-22 16:28:02.479 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:28:07.564 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:28:12.654 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:28:17.748 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:28:22.898 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:28:27.987 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:28:33.085 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:28:38.170 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:28:43.272 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:28:48.366 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:28:53.457 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:28:58.547 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:29:03.638 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:29:08.738 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:29:13.825 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:29:18.928 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:29:24.086 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:29:29.177 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:29:34.269 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:29:39.359 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:29:44.465 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:29:49.564 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:29:54.649 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:29:59.745 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:30:04.842 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:30:09.936 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:30:15.033 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:30:20.133 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:30:25.304 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:30:30.394 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:30:35.478 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:30:40.561 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:30:45.646 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:30:50.750 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:30:55.837 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:31:00.924 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:31:06.016 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:31:11.096 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:31:16.183 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:31:57.086 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:32:10.006 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:32:15.098 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:32:20.184 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:32:25.276 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:32:32.703 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:32:37.787 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:32:42.875 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:32:47.969 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:32:53.053 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:32:58.200 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:33:03.285 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:33:08.369 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:33:13.455 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:33:18.541 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:33:23.629 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:33:28.713 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:33:33.800 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:33:38.887 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:33:43.966 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:33:49.051 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:33:54.140 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:33:59.284 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:34:04.391 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:34:13.172 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:34:18.254 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:34:23.336 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:34:28.421 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:34:33.501 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:34:38.583 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:34:43.674 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:34:48.765 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:34:53.848 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:34:58.930 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:35:04.098 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:35:09.200 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:35:14.284 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:35:19.367 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:35:24.487 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:35:29.569 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:35:34.656 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:35:39.746 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:35:46.829 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:35:51.916 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:35:57.001 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:36:02.090 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:36:07.243 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:36:12.333 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:36:17.419 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:36:22.501 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:36:27.584 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:36:38.513 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:36:43.596 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:36:48.676 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:36:53.760 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:36:58.840 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:37:03.924 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:37:09.083 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:37:14.173 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:37:19.260 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:37:24.355 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:37:29.435 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:37:34.519 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:37:39.607 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:37:44.695 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:37:49.782 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:37:54.876 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:37:59.959 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:38:05.048 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:38:10.205 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:38:15.289 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:38:46.541 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:38:51.627 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:38:56.714 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:39:01.871 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:39:06.959 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:39:12.113 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:39:17.206 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:39:22.287 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:39:27.369 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:39:32.450 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:39:37.539 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:39:59.485 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:40:04.573 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:40:09.670 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:40:14.828 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:40:19.921 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:40:25.011 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:40:30.096 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:40:35.183 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:40:40.277 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:40:45.385 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:40:50.474 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:40:55.549 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:41:00.641 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:41:05.725 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:41:10.815 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:41:15.965 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:41:21.051 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:41:26.140 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:41:31.225 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:41:36.311 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:41:41.392 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:41:46.476 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:41:51.559 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:41:56.647 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:42:01.734 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:42:06.816 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:42:11.903 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:42:17.043 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:42:22.133 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:42:27.217 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:42:32.306 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:42:37.401 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:42:42.495 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:42:47.586 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:42:52.671 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:42:57.758 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:43:02.850 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:43:07.940 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:43:13.030 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:43:18.197 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:43:23.290 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:43:28.381 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:43:33.472 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:43:35.659 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:43:38.569 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:43:43.661 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:43:48.746 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:43:51.772 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:43:53.833 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:43:58.923 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:44:04.021 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:44:07.544 [info] ExtensionService#_doActivateExtension vscode.simple-browser, startup: false, activationEvent: 'onOpenExternalUri:https'
+2026-08-22 16:44:13.069 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:44:18.213 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:44:23.299 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:44:28.392 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:44:33.483 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:44:38.569 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:44:43.663 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:44:48.750 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:44:53.835 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:47:05.024 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:47:10.116 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:47:15.206 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:47:20.315 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:47:25.405 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:47:30.493 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:47:35.586 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:47:40.672 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:47:42.356 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:47:45.759 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:47:48.966 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:47:50.858 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:47:55.950 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:48:00.537 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:48:01.041 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:48:01.174 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:48:01.395 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:48:02.321 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:48:02.959 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:48:03.180 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:48:03.335 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:48:03.496 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:48:03.750 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:48:06.213 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:48:48.430 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:48:48.512 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:48:53.608 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:48:58.694 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:49:03.786 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:49:08.932 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:49:14.027 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:49:19.120 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:49:24.211 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:49:29.294 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:49:29.990 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:49:30.454 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:49:30.669 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:49:30.828 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:49:31.028 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:49:31.259 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:49:31.497 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:49:31.656 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:49:31.896 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:49:32.123 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:49:33.319 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:49:33.668 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:49:34.275 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:49:34.411 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:49:34.508 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:49:36.499 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:49:43.556 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:49:43.643 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:49:48.952 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:49:49.044 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:49:54.128 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:49:59.212 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:50:04.295 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:50:09.458 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:50:14.550 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:50:19.642 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:50:24.733 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:50:29.815 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:50:34.919 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:50:40.020 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:50:45.112 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:50:50.205 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:50:55.302 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:51:00.398 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:51:37.998 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:51:43.085 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:51:48.168 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:51:53.256 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:51:58.341 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:52:03.440 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:52:08.526 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:52:13.609 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:52:18.703 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:52:23.798 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:52:28.884 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:52:33.979 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:52:39.133 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:52:44.233 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:52:49.327 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:52:54.414 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:52:59.506 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:53:16.611 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:53:21.699 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:53:47.195 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:53:52.280 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:53:57.367 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:54:02.471 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:54:07.557 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:54:12.652 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:54:17.735 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:54:22.822 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:54:27.918 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:54:33.014 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:54:33.150 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:54:38.104 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:54:43.189 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:54:48.326 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:54:53.422 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:54:58.511 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:55:03.593 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:55:08.679 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:55:13.765 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:55:18.853 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:55:27.552 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:55:32.633 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:55:42.000 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:55:47.086 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:55:52.234 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:55:52.771 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:55:57.318 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:56:02.412 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:56:07.512 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:56:12.601 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:56:17.689 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:56:22.774 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:56:27.863 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:56:32.957 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:56:38.043 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:56:43.128 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:56:48.226 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:56:53.374 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:56:58.456 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:57:03.547 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:57:08.636 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:57:13.751 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:57:18.850 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:57:23.940 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:57:29.028 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:57:34.115 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:57:39.202 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:57:44.294 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:57:49.394 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:57:54.553 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:58:56.846 [warning] [Decorations] CAPPING events from decorations provider vscode.git 337
+2026-08-22 16:58:56.986 [warning] [Decorations] CAPPING events from decorations provider vscode.git 335
+2026-08-22 16:59:02.081 [warning] [Decorations] CAPPING events from decorations provider vscode.git 335
+2026-08-22 16:59:07.182 [warning] [Decorations] CAPPING events from decorations provider vscode.git 335
+2026-08-22 16:59:12.290 [warning] [Decorations] CAPPING events from decorations provider vscode.git 335
+2026-08-22 16:59:17.382 [warning] [Decorations] CAPPING events from decorations provider vscode.git 335
